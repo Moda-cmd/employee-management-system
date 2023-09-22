@@ -1,0 +1,18 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Harold",
+      "date": "2005-09-14",
+      "email": "haroldsihombing140@gmail.com",
+      "salary": "12312312"
+    },
+    {
+      "id": 3,
+      "name": "Harold P S2wqasdihombing",
+      "date": "1999-06-08",
+      "email": "haroldsihombing140@gmail.com",
+      "salary": 1
+    }
+  ]
+}
