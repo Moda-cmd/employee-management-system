@@ -3,16 +3,44 @@
     {
       "id": 1,
       "name": "Harold",
-      "date": "2005-09-14",
+      "date": "2002-02-06",
       "email": "haroldsihombing140@gmail.com",
       "salary": "12312312"
     },
     {
       "id": 3,
-      "name": "Harold P S2wqasdihombing",
+      "name": "Harold P sihombing",
       "date": "1999-06-08",
       "email": "haroldsihombing140@gmail.com",
-      "salary": 1
+      "salary": 2323223
+    },
+    {
+      "id": 4,
+      "name": "asdasd",
+      "date": "2005-08-31",
+      "email": "haroldsihombing@gmail.com",
+      "salary": 12312312
+    },
+    {
+      "id": 5,
+      "name": "Harold P Sihombing",
+      "date": "2005-09-07",
+      "email": "haroldpatarsihombing@gmail.com",
+      "salary": 123123
+    },
+    {
+      "id": 6,
+      "name": "Harold P Sihombing",
+      "date": "2005-09-07",
+      "email": "haroldpatarsihombing@gmail.com",
+      "salary": 123123
+    },
+    {
+      "id": 7,
+      "name": "Harold P Sihombing",
+      "date": "2005-09-07",
+      "email": "haroldpatarsihombing@gmail.com",
+      "salary": 123123
     }
   ]
 }
