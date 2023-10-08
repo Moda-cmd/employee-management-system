@@ -1,9 +1,7 @@
 <div>
-
-    <h2>Welcome Harold,</h2>
-    <hr size="6px" style="color: crimson;">
-
-
+  <!-- <h2>Welcome User,</h2>
+  <hr size="6px" style="color: crimson" /> -->
+    <app-header></app-header>
   <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -28,10 +26,9 @@
           >
             Add Employee
           </button>
-          <div >
-           
-            <input 
-            placeholder="Search"
+          <div>
+            <input
+              placeholder="Search"
               [(ngModel)]="search"
               (ngModelChange)="onSearch($event)"
               type="text"
@@ -43,7 +40,7 @@
         </div>
       </div>
     </nav>
-  
+
     <table class="table table-hover">
       <thead>
         <tr>
@@ -83,7 +80,7 @@
         </tr>
       </tbody>
     </table>
-  
+
     <!-- Add employee modal -->
     <div
       class="modal fade"
@@ -118,7 +115,9 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email
+                </label>
                 <input
                   type="email"
                   formControlName="email"
@@ -129,14 +128,19 @@
               </div>
               <div class="mb-3">
                 <label> Birth Date </label>
-                <input style="padding: 10px 10px; margin-left: 8px;" type="date" formControlName="date" [max]="maxBirthDate" />
+                <input
+                  style="padding: 10px 10px; margin-left: 8px"
+                  type="date"
+                  formControlName="date"
+                  [max]="maxBirthDate"
+                />
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">
                   Basic Salary
                 </label>
                 <input
-                style="padding: 5px 5px; margin-left: 8px"
+                  style="padding: 5px 5px; margin-left: 8px"
                   type="number"
                   formControlName="salary"
                   class="form-control"
@@ -200,7 +204,9 @@
                 />
               </div>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email </label>
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email
+                </label>
                 <input
                   type="email"
                   formControlName="email"
@@ -211,7 +217,12 @@
               </div>
               <div class="mb-3">
                 <label> Birth Date </label>
-                <input style="padding: 10px 10px; margin-left: 8px;" type="date" formControlName="date" [max]="maxBirthDate" />
+                <input
+                  style="padding: 10px 10px; margin-left: 8px"
+                  type="date"
+                  formControlName="date"
+                  [max]="maxBirthDate"
+                />
               </div>
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">
@@ -247,6 +258,21 @@
         </div>
       </div>
     </div>
+    <!-- <pagination-controls
+      id="some_id"
+      (pageChange)="pageChanged($event)"
+      (pageBoundsCorrection)="pageChanged($event)"
+      maxSize="9"
+      directionLinks="true"
+      autoHide="true"
+      responsive="true"
+      previousLabel="Previous"
+      nextLabel="Next"
+      screenReaderPaginationLabel="Pagination"
+      screenReaderPageLabel="page"
+      screenReaderCurrentLabel="You're on page"
+    >
+    </pagination-controls> -->
   </div>
-  
+  <app-footer></app-footer>
 </div>
